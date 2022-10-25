@@ -1202,7 +1202,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1416186616}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 373718165}
+        m_TargetAssemblyTypeName: ManagerScenes, Assembly-CSharp
+        m_MethodName: ReStart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1475816209
 GameObject:
   m_ObjectHideFlags: 0
@@ -1232,7 +1244,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e868c7266df38fa4995c620e6c3ca681, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxTime: 1
+  maxTime: 5
   obstaculo: {fileID: 5625775883562171457, guid: 0db44aa493d6952439d6d9ff8891db87, type: 3}
   altura: 0.5
 --- !u!4 &1475816211
@@ -1292,6 +1304,7 @@ GameObject:
   - component: {fileID: 2085472287}
   - component: {fileID: 2085472289}
   - component: {fileID: 2085472288}
+  - component: {fileID: 2085472290}
   m_Layer: 5
   m_Name: InitScore
   m_TagString: Untagged
@@ -1416,3 +1429,15 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2085472286}
   m_CullTransparentMesh: 1
+--- !u!114 &2085472290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2085472286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0b631b8f8254904da93bf033c0db0f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
