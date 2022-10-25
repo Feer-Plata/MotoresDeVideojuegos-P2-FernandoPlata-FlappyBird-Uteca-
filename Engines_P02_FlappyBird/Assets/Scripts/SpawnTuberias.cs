@@ -14,7 +14,7 @@ public class SpawnTuberias : MonoBehaviour
     void Start()
     {
         GameObject obsNew = Instantiate(obstaculo);
-        obsNew.transform.position = transform.position = transform.position + new Vector3(0, 0, 0);
+        obsNew.transform.position = transform.position + new Vector3(0, 0, 0);
         Destroy(gameObject, 10f);
     }
 
@@ -24,7 +24,7 @@ public class SpawnTuberias : MonoBehaviour
         if (initTime>maxTime)
         {
             GameObject obsNew = Instantiate(obstaculo);
-            obsNew.transform.position = transform.position = transform.position + new Vector3(0, Random.Range(-altura,altura), 0);
+            obsNew.transform.position = transform.position + new Vector3(0, Random.Range(-altura,altura), 0);
             Destroy(gameObject, 10f);
             initTime = 0;
         }
