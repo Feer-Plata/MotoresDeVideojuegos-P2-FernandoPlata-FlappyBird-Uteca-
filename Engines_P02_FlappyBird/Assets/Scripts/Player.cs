@@ -24,7 +24,7 @@ public class Player : MonoBehaviour
         }  
     }
 
-    public void OnCollisionEnter2D(Collision collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
         contoladorEscenas.Morido();
     }
