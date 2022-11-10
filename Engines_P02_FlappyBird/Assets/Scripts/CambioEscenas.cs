@@ -5,12 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class CambioEscenas : MonoBehaviour
 {
-    void EmpezarJuego()
+    public void EmpezarJuego()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("JuegoFinal");
     }
-    void Start()
-    {
-        SceneManager.LoadScene(1);
-    }
+
 }

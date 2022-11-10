@@ -321,9 +321,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2124095397}
-        m_TargetAssemblyTypeName: ManagerScenes, Assembly-CSharp
-        m_MethodName: ReStart
+      - m_Target: {fileID: 2124095396}
+        m_TargetAssemblyTypeName: CambioEscenas, Assembly-CSharp
+        m_MethodName: EmpezarJuego
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1202,7 +1202,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2124095395}
   - component: {fileID: 2124095396}
-  - component: {fileID: 2124095397}
   m_Layer: 0
   m_Name: CambioEscenas
   m_TagString: Untagged
@@ -1237,16 +1236,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50d0dd4ebb8abbc4ea26daf69ddbe3e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &2124095397
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2124095393}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2e44abfd6d9ead949b68178081d78e34, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  canvasPerder: {fileID: 0}
