@@ -8,9 +8,6 @@ En este juego te situas como un Centrophryne spinulosa (Pez linterna), deberas e
 Como descargar el juego: 
 Busca el archivo ejecutable (.exe) en la carpeta del proyecto MotoresDeVideojuegos-P2-FernandoPlata-FlappyBird-Uteca- (Meter ejecuatble)
 
-
-Esta presente en la siguiente carpeta: Duck Hunt -> DuckHunt_VFinal_FernandoMoreno -> DuckHunt_V2 -> Game_X86_V.F
-
 Como jugar:
 
 Para empezar, utiliza el mouse para dar click en cualquier parte de la pantalla. Empezara el juego y deberas preionar constantemente el mouse para mantenerte vivo, obviamente si presionas el boton situado en la esquina superior izquierda se abrira el menu de pausa, para continuar el juego da clic en el boton de play o si deseas salir del menu, presiona el boton de la "x". De igual forma ocurre cuando pierdes al explotar con una spike mine.
