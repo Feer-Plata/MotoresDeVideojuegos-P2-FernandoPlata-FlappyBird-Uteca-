@@ -7,6 +7,7 @@ public class SpawnTuberias : MonoBehaviour
     //Atributos
     public float maxTime = 1;
     public float initTime = 0;
+    public float timeS = 2F;
     public GameObject obstaculo;
     public float altura;
 
@@ -23,7 +24,7 @@ public class SpawnTuberias : MonoBehaviour
         {
             GameObject obsNew = Instantiate(obstaculo);
             obsNew.transform.position = transform.position + new Vector3(0, Random.Range(-altura,altura), 0);
-            Destroy(obsNew, 2f);
+            Destroy(obsNew, timeS);
             initTime = 0;
         }
         else
@@ -31,4 +32,5 @@ public class SpawnTuberias : MonoBehaviour
             initTime += Time.deltaTime; 
         }
     }
+
 }
