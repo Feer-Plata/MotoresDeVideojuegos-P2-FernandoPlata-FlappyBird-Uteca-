@@ -3,8 +3,9 @@ Repositorio el juego BoomFish.
 
 Bienvenido a BoomFish!
 Es un juego 2D tipo clicker inspirado en el clasico FLAPPY BIRD.
+En este juego te situas como un Centrophryne spinulosa (Pez linterna), deberas esquivar minas de pinchos y rocas de corales mientras te alimentas de peces Mollienesia (Pez Molly).
 
-Como jugar?
+Como descargar el juego: 
 Busca el archivo ejecutable (.exe) en la carpeta del proyecto MotoresDeVideojuegos-P2-FernandoPlata-FlappyBird-Uteca- (Meter ejecuatble)
 
 
